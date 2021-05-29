@@ -14,8 +14,7 @@ blurHandler = () => {
     render() {
         return (
             <div>
-                <EyesOnMe />
-                <button onFocus={this.focusHandler} onBlur={this.blurHandler}></button>
+                <button onFocus={this.focusHandler} onBlur={this.blurHandler}>Enter Password</button>
             </div>
         )
     }
